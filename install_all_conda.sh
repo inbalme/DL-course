@@ -22,7 +22,7 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/libjpeg.so /usr/lib
 #bash Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda3 && \
 wget https://repo.continuum.io/archive/Anaconda3-2018.12-Linux-x86_64.sh && \
 bash Anaconda3-2018.12-Linux-x86_64.sh -b -p $HOME/Anaconda3 && \
-echo "export PATH=$HOME/miniconda3/bin:\$PATH" >> ~/.bashrc && \
+echo "export PATH=$HOME/Anaconda3/bin:\$PATH" >> ~/.bashrc && \
 source ~/.bashrc
 # create env
 conda create --yes -n cs231n-a1 python=3.6
